@@ -11,7 +11,7 @@
 mounts/site/*
 ```
 - В корневом каталоге лабораторной работы, создаем новый путь `nginx/default.conf` со следующим содержимым 
-```bash
+```config
 server {
     listen 80;
     server_name _;
